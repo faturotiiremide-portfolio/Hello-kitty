@@ -36,16 +36,16 @@ def intro():
     intro3 = "One day, late at night, she hears a loud noise outside the village."
     q1 = "Should she go outside to investigate? Yes or no?"
 
-    screen.fill("white")
-    textSurface = myFont.render(intro1, True, "black")
+    screen.fill("black")
+    textSurface = myFont.render(intro1, True, "white")
     screen.blit(textSurface, (10, 10))
-    textSurface = myFont.render(intro2, True, "black")
+    textSurface = myFont.render(intro2, True, "white")
     screen.blit(textSurface, (10, 24))
-    textSurface = myFont.render(intro3, True, "black")
+    textSurface = myFont.render(intro3, True, "white")
     screen.blit(textSurface, (10, 38))
-    textSurface = myFont.render(q1, True, "black")
+    textSurface = myFont.render(q1, True, "white")
     screen.blit(textSurface, (10, 52))
-    textSurface = myFont.render(directions, True, "black")
+    textSurface = myFont.render(directions, True, "white")
     screen.blit(textSurface, (10, 66))
 
 
